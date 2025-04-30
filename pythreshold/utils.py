@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-from scipy.misc import face
+# from scipy.misc import face
 
 # Importing global thresholding algorithms
 from .global_th import (
@@ -98,8 +98,8 @@ def test_thresholds_plt(img=None):
     @type img: ndarray
     """
     # Loading image if needed
-    if img is None:
-        img = face(gray=True)
+    # if img is None:
+    #    img = face(gray=True)
 
     # Plotting test image histogram
     plt.figure('Histogram')
